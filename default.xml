@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="ohd"
+           fetch=".."
+           review="https://partner-android-review.googlesource.com/" />
+
+  <default revision="master"
+           remote="ohd" />
+
+  <!-- BEGIN trusty core projects -->
+  <project path="external/lk" name="trusty/lk/common" groups="trusty" >
+    <copyfile src="makefile" dest="makefile" />
+  </project>
+  <project path="external/headers" name="trusty/external/headers" groups="trusty" />
+  <project path="lib" name="trusty/lib" groups="trusty" />
+  <project path="lk/trusty" name="trusty/lk/trusty" groups="trusty" />
+  <!-- END trusty core projects -->
+
+  <!-- BEGIN apps project  -->
+  <project path="app/sample" name="trusty/app/sample" groups="trusty" />
+  <!-- END apps project -->
+
+  <!-- BEGIN trusty device projects -->
+  <project path="device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty" />
+  <project path="device/arm/vexpress-a15" name="trusty/device/arm/vexpress-a15" groups="trusty" />
+  <!-- END trusty device projects -->
+
+  <!-- BEGIN trusty vendor projects -->
+  <project path="vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty" >
+   <!-- Install lk_inc.mk into trusty root -->
+    <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
+  </project>
+  <!-- END trusty vendor projects -->
+
+  <!-- BEGIN toolchains -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" revision="mirror-aosp-master" groups="trusty" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="mirror-aosp-master" groups="trusty" />
+  <!-- END toolchains -->
+
+  <!-- BEGIN aux external projects -->
+  <project path="external/qemu" name="trusty/external/qemu" groups="trusty" />
+  <!-- END aux external projects -->
+
+</manifest>
