@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="ohd"
+  <remote  name="aosp"
            fetch=".."
-           review="https://partner-android-review.googlesource.com/" />
-
+           review="https://android-review.googlesource.com/" />
   <default revision="master"
-           remote="ohd" />
+           remote="aosp"
+           sync-j="4" />
 
   <!-- BEGIN trusty core projects -->
   <project path="external/lk" name="trusty/lk/common" groups="trusty" >
@@ -34,8 +34,8 @@
   <!-- END trusty vendor projects -->
 
   <!-- BEGIN toolchains -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" revision="mirror-aosp-master" groups="trusty" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="mirror-aosp-master" groups="trusty" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="trusty" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="trusty" />
   <!-- END toolchains -->
 
   <!-- BEGIN aux external projects -->
