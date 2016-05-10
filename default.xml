@@ -17,9 +17,19 @@
   <project path="lk/trusty" name="trusty/lk/trusty" groups="trusty" />
   <!-- END trusty core projects -->
 
-  <!-- BEGIN apps project  -->
+  <!-- BEGIN apps projects  -->
   <project path="app/sample" name="trusty/app/sample" groups="trusty" />
-  <!-- END apps project -->
+  <project path="app/keymaster" name="trusty/app/keymaster" groups="trusty" />
+  <project path="app/gatekeeper" name="trusty/app/gatekeeper" groups="trusty" />
+  <project path="app/storage" name="trusty/app/storage" groups="trusty" />
+  <!-- END apps projects -->
+
+  <!-- BEGIN platform projects -->
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="trusty" />
+  <project path="system/keymaster" name="platform/system/keymaster" groups="trusty" />
+  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
+  <project path="external/openssl" name="platform/external/boringssl" groups="trusty" />
+  <!-- END platform projects -->
 
   <!-- BEGIN trusty device projects -->
   <project path="device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty" />
