@@ -40,6 +40,11 @@
   <project path="device/arm/vexpress-a15" name="trusty/device/arm/vexpress-a15" groups="trusty" />
   <!-- END trusty device projects -->
 
+  <!-- BEGIN trusty nxp projects -->
+  <project path="device/nxp/imx7d" name="trusty/device/nxp/imx7d" groups="trusty" />
+  <project path="lk/nxp" name="trusty/lk/nxp" groups="trusty" />
+  <!-- END trusty nxp projects -->
+
   <!-- BEGIN trusty vendor projects -->
   <project path="vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty" >
    <!-- Install lk_inc.mk into trusty root -->
