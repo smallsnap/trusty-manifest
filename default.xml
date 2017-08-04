@@ -22,6 +22,7 @@
   <project path="app/keymaster" name="trusty/app/keymaster" groups="trusty" />
   <project path="app/gatekeeper" name="trusty/app/gatekeeper" groups="trusty" />
   <project path="app/storage" name="trusty/app/storage" groups="trusty" />
+  <project path="app/avb" name="trusty/app/avb" groups="trusty" />
   <!-- END apps projects -->
 
   <!-- BEGIN platform projects -->
@@ -29,6 +30,7 @@
   <project path="system/keymaster" name="platform/system/keymaster" groups="trusty" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
   <project path="external/openssl" name="platform/external/boringssl" groups="trusty" />
+  <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="trusty" />
   <!-- END platform projects -->
 
   <!-- BEGIN trusty device projects -->
