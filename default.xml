@@ -26,6 +26,7 @@
   <!-- END apps projects -->
 
   <!-- BEGIN platform projects -->
+  <project path="external/googletest" name="platform/external/googletest" groups="trusty" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="trusty" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="trusty" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
