@@ -32,6 +32,7 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
   <project path="external/openssl" name="platform/external/boringssl" groups="trusty" />
   <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="trusty" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" groups="trusty" />
   <!-- END platform projects -->
 
   <!-- BEGIN trusty device projects -->
@@ -58,4 +59,5 @@
   <project path="external/qemu" name="trusty/external/qemu" groups="trusty" />
   <!-- END aux external projects -->
 
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
