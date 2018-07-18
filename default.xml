@@ -13,16 +13,16 @@
     <copyfile src="makefile" dest="makefile" />
   </project>
   <project path="external/headers" name="trusty/external/headers" groups="trusty" />
-  <project path="lib" name="trusty/lib" groups="trusty" />
-  <project path="lk/trusty" name="trusty/lk/trusty" groups="trusty" />
+  <project path="trusty/user/base" name="trusty/lib" groups="trusty" />
+  <project path="trusty/kernel" name="trusty/lk/trusty" groups="trusty" />
   <!-- END trusty core projects -->
 
   <!-- BEGIN apps projects  -->
-  <project path="app/sample" name="trusty/app/sample" groups="trusty" />
-  <project path="app/keymaster" name="trusty/app/keymaster" groups="trusty" />
-  <project path="app/gatekeeper" name="trusty/app/gatekeeper" groups="trusty" />
-  <project path="app/storage" name="trusty/app/storage" groups="trusty" />
-  <project path="app/avb" name="trusty/app/avb" groups="trusty" />
+  <project path="trusty/user/app/sample" name="trusty/app/sample" groups="trusty" />
+  <project path="trusty/user/app/keymaster" name="trusty/app/keymaster" groups="trusty" />
+  <project path="trusty/user/app/gatekeeper" name="trusty/app/gatekeeper" groups="trusty" />
+  <project path="trusty/user/app/storage" name="trusty/app/storage" groups="trusty" />
+  <project path="trusty/user/app/avb" name="trusty/app/avb" groups="trusty" />
   <!-- END apps projects -->
 
   <!-- BEGIN platform projects -->
@@ -37,17 +37,17 @@
   <!-- END platform projects -->
 
   <!-- BEGIN trusty device projects -->
-  <project path="device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty" />
-  <project path="device/arm/vexpress-a15" name="trusty/device/arm/vexpress-a15" groups="trusty" />
+  <project path="trusty/device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty" />
+  <project path="trusty/device/arm/vexpress-a15" name="trusty/device/arm/vexpress-a15" groups="trusty" />
   <!-- END trusty device projects -->
 
   <!-- BEGIN trusty nxp projects -->
-  <project path="device/nxp/imx7d" name="trusty/device/nxp/imx7d" groups="trusty" />
-  <project path="lk/nxp" name="trusty/lk/nxp" groups="trusty" />
+  <project path="trusty/device/nxp/imx7d" name="trusty/device/nxp/imx7d" groups="trusty" />
+  <project path="trusty/hardware/nxp" name="trusty/lk/nxp" groups="trusty" />
   <!-- END trusty nxp projects -->
 
   <!-- BEGIN trusty vendor projects -->
-  <project path="vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty" >
+  <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty" >
    <!-- Install lk_inc.mk into trusty root -->
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
