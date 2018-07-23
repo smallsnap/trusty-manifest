@@ -31,7 +31,7 @@
   <project path="system/keymaster" name="platform/system/keymaster" groups="trusty" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
   <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="trusty" />
-  <project path="external/openssl" name="platform/external/boringssl" groups="trusty" />
+  <project path="external/boringssl" name="platform/external/boringssl" groups="trusty" />
   <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="trusty" />
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="trusty" />
   <!-- END platform projects -->
