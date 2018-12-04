@@ -67,6 +67,9 @@
 
   <!-- BEGIN aux external projects -->
   <project path="external/qemu" name="trusty/external/qemu" groups="trusty" />
+  <project path="external/capstone" name="platform/external/capstone" groups="trusty" />
+  <project path="external/dtc" name="platform/external/dtc" groups="trusty" />
+  <project path="external/qemu-keycodemapdb" name="trusty/external/qemu-keycodemapdb" revision="10739aa26051a5d49d88132604539d3ed085e72e" groups="trusty" />
   <!-- END aux external projects -->
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
