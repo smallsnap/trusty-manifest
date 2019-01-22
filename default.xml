@@ -66,6 +66,7 @@
   <!-- END toolchains -->
 
   <!-- BEGIN aux external projects -->
+  <project path="external/linux" name="kernel/common" revision="android-trusty-4.9" groups="trusty" />
   <project path="external/qemu" name="trusty/external/qemu" groups="trusty" />
   <project path="external/capstone" name="platform/external/capstone" groups="trusty" />
   <project path="external/dtc" name="platform/external/dtc" groups="trusty" />
