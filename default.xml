@@ -63,6 +63,7 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="trusty" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="trusty" />
   <project path="prebuilts/libprotobuf" name="platform/prebuilts/libprotobuf/linux" revision="trusty" groups="trusty" />
+  <project path="trusty/prebuilts/aosp" name="trusty/prebuilts/aosp" groups="trusty" />
   <!-- END toolchains -->
 
   <!-- BEGIN aux external projects -->
