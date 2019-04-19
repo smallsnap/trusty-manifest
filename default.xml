@@ -62,6 +62,7 @@
   <!-- END trusty vendor projects -->
 
   <!-- BEGIN toolchains -->
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="trusty" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="trusty" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="trusty" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="trusty" clone-depth="1" />
