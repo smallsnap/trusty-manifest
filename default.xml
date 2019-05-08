@@ -19,7 +19,7 @@
     <copyfile src="makefile" dest="makefile" />
   </project>
   <project path="external/headers" name="trusty/external/headers" groups="trusty" />
-  <project path="external/trusty" name="trusty/external/trusty" groups="trusty" />
+  <project path="external/trusty/bootloader" name="trusty/external/trusty" groups="trusty" />
   <project path="trusty/user/base" name="trusty/lib" groups="trusty" />
   <project path="trusty/kernel" name="trusty/lk/trusty" groups="trusty" />
   <!-- END trusty core projects -->
