@@ -20,6 +20,7 @@
   </project>
   <project path="external/headers" name="trusty/external/headers" groups="trusty" />
   <project path="external/trusty/bootloader" name="trusty/external/trusty" groups="trusty" />
+  <project path="external/trusty/musl" name="trusty/external/musl" groups="trusty" />
   <project path="trusty/user/base" name="trusty/lib" groups="trusty" />
   <project path="trusty/kernel" name="trusty/lk/trusty" groups="trusty" />
   <!-- END trusty core projects -->
@@ -34,6 +35,7 @@
 
   <!-- BEGIN platform projects -->
   <project path="external/googletest" name="platform/external/googletest" groups="trusty" />
+  <project path="external/libcxx" name="platform/external/libcxx" groups="trusty" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="trusty" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="trusty" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
