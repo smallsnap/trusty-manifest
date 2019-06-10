@@ -36,6 +36,7 @@
   <!-- BEGIN platform projects -->
   <project path="external/googletest" name="platform/external/googletest" groups="trusty" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="trusty" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="trusty" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="trusty" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="trusty" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
