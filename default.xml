@@ -26,6 +26,7 @@
   <!-- END trusty core projects -->
 
   <!-- BEGIN apps projects  -->
+  <project path="trusty/user/app/confirmationui" name="trusty/app/confirmationui" groups="trusty" />
   <project path="trusty/user/app/sample" name="trusty/app/sample" groups="trusty" />
   <project path="trusty/user/app/keymaster" name="trusty/app/keymaster" groups="trusty" />
   <project path="trusty/user/app/gatekeeper" name="trusty/app/gatekeeper" groups="trusty" />
