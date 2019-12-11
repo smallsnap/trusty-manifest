@@ -35,15 +35,17 @@
   <!-- END apps projects -->
 
   <!-- BEGIN platform projects -->
+  <project path="external/freetype" name="platform/external/freetype" groups="trusty" />
   <project path="external/googletest" name="platform/external/googletest" groups="trusty" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="trusty" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="trusty" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="trusty" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="trusty" />
-  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
   <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="trusty" />
   <project path="external/boringssl" name="platform/external/boringssl" groups="trusty" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="trusty" />
+  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
   <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="trusty" />
+  <project path="system/keymaster" name="platform/system/keymaster" groups="trusty" />
+  <project path="system/teeui" name="platform/system/teeui" groups="trusty" />
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="trusty" />
   <!-- END platform projects -->
 
