@@ -43,6 +43,7 @@
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="trusty" />
   <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="trusty" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="trusty" />
+  <project path="external/scudo" name="platform/external/scudo" groups="trusty" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="trusty" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
   <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="trusty" />
