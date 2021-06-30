@@ -80,6 +80,8 @@
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="trusty" clone-depth="1" />
   <project path="prebuilts/libprotobuf" name="platform/prebuilts/libprotobuf/linux" revision="trusty" groups="trusty" clone-depth="1" />
   <project path="trusty/prebuilts/aosp" name="trusty/prebuilts/aosp" groups="trusty" clone-depth="1" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="trusty"
+clone-depth="1" />
   <!-- END toolchains -->
 
   <!-- BEGIN aux external projects -->
