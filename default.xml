@@ -85,6 +85,12 @@
 clone-depth="1" />
   <!-- END toolchains -->
 
+  <!-- BEGIN external rust crates -->
+  <!-- These crates are pinned because their trusty build files live in the trusty tree and need to be manually updated -->
+  <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" groups="trusty" revision="3a0379aa3da7a72be33132486b87df59254d6354" />
+  <project path="external/rust/crates/log" name="platform/external/rust/crates/log" groups="trusty" revision="d3a6baa591a726f3216df9e0cf4a8f3bb1a2f5f7" />
+  <!-- END external rust crates -->
+
   <!-- BEGIN aux external projects -->
   <project path="external/linux" name="kernel/common" revision="android12-trusty-5.10" groups="trusty" />
   <project path="external/qemu" name="trusty/external/qemu" groups="trusty" />
