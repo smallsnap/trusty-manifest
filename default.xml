@@ -90,7 +90,7 @@ clone-depth="1" />
   <project path="external/qemu" name="trusty/external/qemu" groups="trusty" />
   <project path="external/capstone" name="platform/external/capstone" revision="f1f1cbc054db7021d4167a96b55783e087e1b7b4" groups="trusty" />
   <project path="external/dtc" name="platform/external/dtc" groups="trusty" />
-  <project path="external/qemu-keycodemapdb" name="trusty/external/qemu-keycodemapdb" revision="10739aa26051a5d49d88132604539d3ed085e72e" groups="trusty" />
+  <project path="external/qemu-keycodemapdb" name="trusty/external/qemu-keycodemapdb" revision="6b3d716e2b6472eb7189d3220552280ef3d832ce" groups="trusty" />
   <project path="external/arm-trusted-firmware" name="trusty/external/trusted-firmware-a" groups="trusty" />
   <!-- END aux external projects -->
 
