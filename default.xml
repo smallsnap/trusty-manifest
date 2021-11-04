@@ -73,9 +73,10 @@
 
   <!-- BEGIN toolchains -->
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="trusty" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="trusty" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="trusty" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="trusty" clone-depth="1" />
+  <!-- TODO(204914889): Pinning GNU binutils until we move to LLVM -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="trusty" clone-depth="1" revision="0a0604336d4d1067aa1aaef8d3779b31fcee841d" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="trusty" clone-depth="1" revision="4d16d93f49c2b5ecdd0f12c38d194835dd595603" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="trusty" clone-depth="1" revision="91761804f6e3bfceaa2894681b6fe86d79fb3b4c" />
   <!-- TODO(185914685): Pinnning clang toolchain until we move off of r399163b -->
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="trusty" clone-depth="1" revision="7cc90b2747a50b6cf86581ecfb674e4bcc292f8d" />
   <project path="prebuilts/libprotobuf" name="platform/prebuilts/libprotobuf/linux" revision="trusty" groups="trusty" clone-depth="1" />
