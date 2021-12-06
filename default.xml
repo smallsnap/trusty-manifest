@@ -95,6 +95,7 @@
   <project path="trusty/prebuilts/aosp" name="trusty/prebuilts/aosp" groups="trusty" clone-depth="1" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="trusty"
 clone-depth="1" />
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="trusty" clone-depth="1" />
   <!-- END toolchains -->
 
   <!-- BEGIN external rust crates -->
