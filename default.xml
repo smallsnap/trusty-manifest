@@ -99,6 +99,7 @@ clone-depth="1" />
   <project path="build/bazel" name="platform/build/bazel" groups="trusty" clone-depth="1" >
     <linkfile src="bazel.BUILD" dest="BUILD" />
   </project>
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="trusty" clone-depth="1" />
   <!-- END toolchains -->
 
   <!-- BEGIN external rust crates -->
