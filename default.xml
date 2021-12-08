@@ -96,6 +96,9 @@
   <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="trusty"
 clone-depth="1" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="trusty" clone-depth="1" />
+  <project path="build/bazel" name="platform/build/bazel" groups="trusty" clone-depth="1" >
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
   <!-- END toolchains -->
 
   <!-- BEGIN external rust crates -->
