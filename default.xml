@@ -14,6 +14,9 @@
            remote="aosp"
            sync-j="4" />
 
+  <superproject name="trusty/superproject" remote="aosp"/>
+  <contactinfo bugurl="go/repo-bug" />
+
   <!-- BEGIN trusty core projects -->
   <project path="external/lk" name="trusty/lk/common" groups="trusty" >
     <copyfile src="makefile" dest="makefile" />
