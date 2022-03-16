@@ -32,6 +32,7 @@
   <project path="trusty/user/app/confirmationui" name="trusty/app/confirmationui" groups="trusty" />
   <project path="trusty/user/app/sample" name="trusty/app/sample" groups="trusty" />
   <project path="trusty/user/app/keymaster" name="trusty/app/keymaster" groups="trusty" />
+  <project path="trusty/user/app/keymint" name="trusty/app/keymint" groups="trusty" />
   <project path="trusty/user/app/gatekeeper" name="trusty/app/gatekeeper" groups="trusty" />
   <project path="trusty/user/app/storage" name="trusty/app/storage" groups="trusty" />
   <project path="trusty/user/app/avb" name="trusty/app/avb" groups="trusty" />
