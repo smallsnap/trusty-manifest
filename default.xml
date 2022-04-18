@@ -93,6 +93,10 @@ clone-depth="1" />
   <!-- These crates are pinned because their trusty build files live in the trusty tree and need to be manually updated -->
   <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" groups="trusty" revision="3a0379aa3da7a72be33132486b87df59254d6354" />
   <project path="external/rust/crates/log" name="platform/external/rust/crates/log" groups="trusty" revision="d3a6baa591a726f3216df9e0cf4a8f3bb1a2f5f7" />
+  <project path="external/rust/crates/proc-macro2" name="platform/external/rust/crates/proc-macro2" groups="trusty" revision="0dbe64a68761c53ad18a6fa505e64baf629373db" />
+  <project path="external/rust/crates/quote" name="platform/external/rust/crates/quote" groups="trusty" revision="a17b36b511c23ec39fdc5b6c6feb71e6f89dd3d2" />
+  <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" groups="trusty" revision="0f7d984f79a1ff8f5ba53dcf2acf8719ca7b7028" />
+  <project path="external/rust/crates/unicode-xid" name="platform/external/rust/crates/unicode-xid" groups="trusty" revision="ff2788a6f8b399fbd70afbd82f392e3d096ac42a" />
   <!-- END external rust crates -->
 
   <!-- BEGIN aux external projects -->
