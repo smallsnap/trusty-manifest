@@ -36,6 +36,7 @@
   <project path="trusty/user/app/gatekeeper" name="trusty/app/gatekeeper" groups="trusty" />
   <project path="trusty/user/app/storage" name="trusty/app/storage" groups="trusty" />
   <project path="trusty/user/app/avb" name="trusty/app/avb" groups="trusty" />
+  <project path="trusty/user/app/cast-auth" name="trusty/app/cast-auth" groups="trusty" />
   <!-- END apps projects -->
 
   <!-- BEGIN platform projects -->
