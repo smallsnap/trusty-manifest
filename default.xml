@@ -56,6 +56,7 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
   <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="trusty" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="trusty" />
+  <project path="system/keymint" name="platform/system/keymint" groups="trusty" />
   <project path="system/libbase" name="platform/system/libbase" groups="trusty" />
   <project path="system/teeui" name="platform/system/teeui" groups="trusty" />
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="trusty" />
