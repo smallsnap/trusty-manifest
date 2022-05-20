@@ -100,9 +100,9 @@ clone-depth="1" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" groups="trusty" revision="603997526e625fcde6764452bb866662435ca1e1" />
   <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" groups="trusty" revision="3a0379aa3da7a72be33132486b87df59254d6354" />
   <project path="external/rust/crates/ciborium" name="platform/external/rust/crates/ciborium" groups="trusty" revision="98df581ed41275602fdb43ba68e73a3754fc290c" />
-  <project path="external/rust/crates/ciborium-io" name="platform/external/rust/crates/ciborium-io" groups="trusty" revision="c809b61013edef983488800b8d6de4cc471dcac9" />
+  <project path="external/rust/crates/ciborium-io" name="platform/external/rust/crates/ciborium-io" groups="trusty" revision="eaeefa649040f31d5be71b1928a6bd8c1e84fdda" />
   <project path="external/rust/crates/ciborium-ll" name="platform/external/rust/crates/ciborium-ll" groups="trusty" revision="c1c6232a79f0111d8f82909a4b493279db8562af" />
-  <project path="external/rust/crates/coset" name="platform/external/rust/crates/coset" groups="trusty" revision="351c7de19bc8b13d0f1fe78fd510d7f3561fa485" />
+  <project path="external/rust/crates/coset" name="platform/external/rust/crates/coset" groups="trusty" revision="d1d62f5d6e2c494aa2d503ea68f772141d07a50e" />
   <project path="external/rust/crates/enumn" name="platform/external/rust/crates/enumn" groups="trusty" revision="2f975df577f1413d869988c92ec5461c21479dff" />
   <project path="external/rust/crates/foreign-types" name="platform/external/rust/crates/foreign-types" groups="trusty" revision="a063310d99662e54ee2c5338b0f1a63aebd929b5" />
   <project path="external/rust/crates/foreign-types-shared" name="platform/external/rust/crates/foreign-types-shared" groups="trusty" revision="5233dd5f46488af99d0c3de1b13822e2771a2e24" />
@@ -115,7 +115,7 @@ clone-depth="1" />
   <project path="external/rust/crates/serde" name="platform/external/rust/crates/serde" groups="trusty" revision="2fd73219ce5f3464ae74ed046ba27499cd3f3c28" />
   <project path="external/rust/crates/serde_derive" name="platform/external/rust/crates/serde_derive" groups="trusty" revision="5bd7a1932475cf8fbdfbd8003fb82e407ee7d8ac" />
   <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" groups="trusty" revision="0f7d984f79a1ff8f5ba53dcf2acf8719ca7b7028" />
-  <project path="external/rust/crates/unicode-xid" name="platform/external/rust/crates/unicode-xid" groups="trusty" revision="ff2788a6f8b399fbd70afbd82f392e3d096ac42a" />
+  <project path="external/rust/crates/unicode-xid" name="platform/external/rust/crates/unicode-xid" groups="trusty" revision="b8d1a747d48fa8e08eaf73c735377081ac3f7c0b" />
   <!-- END external rust crates -->
 
   <!-- BEGIN aux external projects -->
