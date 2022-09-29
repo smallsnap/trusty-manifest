@@ -110,7 +110,7 @@ clone-depth="1" />
   <project path="external/rust/crates/proc-macro-error" name="platform/external/rust/crates/proc-macro-error" groups="trusty" revision="dc1696b87379384219d8792303573c1a42104fc6" />
   <project path="external/rust/crates/proc-macro-error-attr" name="platform/external/rust/crates/proc-macro-error-attr" groups="trusty" revision="c47e6359de58aed0c3ce98187807a05fcc642da5" />
   <project path="external/rust/crates/quote" name="platform/external/rust/crates/quote" groups="trusty" revision="a17b36b511c23ec39fdc5b6c6feb71e6f89dd3d2" />
-  <project path="external/rust/crates/rust-openssl" name="platform/external/rust/crates/openssl" groups="trusty" revision="2a8eac2e98c69762cd0b4a54deb7a0718988c192" />
+  <project path="external/rust/crates/rust-openssl" name="platform/external/rust/crates/openssl" groups="trusty" revision="a12920058060382d99ab4ac946563de09064e593" />
   <project path="external/rust/crates/serde" name="platform/external/rust/crates/serde" groups="trusty" revision="2fd73219ce5f3464ae74ed046ba27499cd3f3c28" />
   <project path="external/rust/crates/serde_derive" name="platform/external/rust/crates/serde_derive" groups="trusty" revision="5bd7a1932475cf8fbdfbd8003fb82e407ee7d8ac" />
   <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" groups="trusty" revision="0f7d984f79a1ff8f5ba53dcf2acf8719ca7b7028" />
