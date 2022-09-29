@@ -98,7 +98,7 @@ clone-depth="1" />
   <project path="external/rust/crates/ciborium" name="platform/external/rust/crates/ciborium" groups="trusty" revision="98df581ed41275602fdb43ba68e73a3754fc290c" />
   <project path="external/rust/crates/ciborium-io" name="platform/external/rust/crates/ciborium-io" groups="trusty" revision="eaeefa649040f31d5be71b1928a6bd8c1e84fdda" />
   <project path="external/rust/crates/ciborium-ll" name="platform/external/rust/crates/ciborium-ll" groups="trusty" revision="c1c6232a79f0111d8f82909a4b493279db8562af" />
-  <project path="external/rust/crates/coset" name="platform/external/rust/crates/coset" groups="trusty" revision="d1d62f5d6e2c494aa2d503ea68f772141d07a50e" />
+  <project path="external/rust/crates/coset" name="platform/external/rust/crates/coset" groups="trusty" revision="50e5b2ecd4dcf01b9d8b2cc0b761375afb9e479f" />
   <project path="external/rust/crates/enumn" name="platform/external/rust/crates/enumn" groups="trusty" revision="2f975df577f1413d869988c92ec5461c21479dff" />
   <project path="external/rust/crates/foreign-types" name="platform/external/rust/crates/foreign-types" groups="trusty" revision="a063310d99662e54ee2c5338b0f1a63aebd929b5" />
   <project path="external/rust/crates/foreign-types-shared" name="platform/external/rust/crates/foreign-types-shared" groups="trusty" revision="5233dd5f46488af99d0c3de1b13822e2771a2e24" />
