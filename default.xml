@@ -99,7 +99,7 @@ clone-depth="1" />
   <project path="external/rust/crates/ciborium-io" name="platform/external/rust/crates/ciborium-io" groups="trusty" revision="eaeefa649040f31d5be71b1928a6bd8c1e84fdda" />
   <project path="external/rust/crates/ciborium-ll" name="platform/external/rust/crates/ciborium-ll" groups="trusty" revision="c1c6232a79f0111d8f82909a4b493279db8562af" />
   <project path="external/rust/crates/const-oid" name="platform/external/rust/crates/const-oid" groups="trusty" revision="a09c3812968a32e3180d8456e89a293d3600b1f6" />
-  <project path="external/rust/crates/coset" name="platform/external/rust/crates/coset" groups="trusty" revision="50e5b2ecd4dcf01b9d8b2cc0b761375afb9e479f" />
+  <project path="external/rust/crates/coset" name="platform/external/rust/crates/coset" groups="trusty" revision="e6c94ad2331fe4ffd1632170d2a50556ea62d9c0" />
   <project path="external/rust/crates/der" name="platform/external/rust/crates/der" groups="trusty" revision="ccc9f2fcad36ede3902a2f2e4b667dd3eb6c2091" />
   <project path="external/rust/crates/der_derive" name="platform/external/rust/crates/der_derive" groups="trusty" revision="53d28e16ca18b4cd5f252a07bcfd61632d82ea2d" />
   <project path="external/rust/crates/enumn" name="platform/external/rust/crates/enumn" groups="trusty" revision="2f975df577f1413d869988c92ec5461c21479dff" />
