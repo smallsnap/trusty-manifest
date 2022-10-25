@@ -45,7 +45,7 @@
   <project path="external/freetype" name="platform/external/freetype" groups="trusty" />
   <project path="external/googletest" name="platform/external/googletest" groups="trusty" />
   <project path="external/libcppbor" name="platform/external/libcppbor" groups="trusty" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="trusty" />
+  <project path="external/libcxx" name="platform/external/libcxx" revision="main-trusty" groups="trusty" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="trusty" />
   <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="trusty" />
   <project path="external/open-dice" name="platform/external/open-dice" groups="trusty" />
