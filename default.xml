@@ -26,7 +26,10 @@
   <project path="external/trusty/musl" name="trusty/external/musl" groups="trusty" />
   <project path="trusty/user/base" name="trusty/lib" groups="trusty" />
   <project path="trusty/kernel" name="trusty/lk/trusty" groups="trusty" />
-  <project path="trusty/host/common" name="trusty/host/common" groups="trusty" />
+  <project path="trusty/host/common" name="trusty/host/common" groups="trusty">
+    <linkfile src="bazel/WORKSPACE.bazel" dest="WORKSPACE.bazel" />
+    <linkfile src="bazel/bazelrc" dest=".bazelrc" />
+  </project>
   <project path="trusty/interfaces" name="trusty/interfaces" groups="trusty" />
   <!-- END trusty core projects -->
 
