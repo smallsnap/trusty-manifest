@@ -27,6 +27,7 @@
   <project path="trusty/user/base" name="trusty/lib" groups="trusty" />
   <project path="trusty/kernel" name="trusty/lk/trusty" groups="trusty" />
   <project path="trusty/host/common" name="trusty/host/common" groups="trusty" />
+  <project path="trusty/interfaces" name="trusty/interfaces" groups="trusty" />
   <!-- END trusty core projects -->
 
   <!-- BEGIN apps projects  -->
