@@ -53,6 +53,7 @@
   <project path="external/open-dice" name="platform/external/open-dice" groups="trusty" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="trusty" />
   <project path="external/python/jinja" name="platform/external/python/jinja" groups="trusty" />
+  <project path="external/python/six" name="platform/external/python/six" groups="trusty" />
   <project path="external/scudo" name="platform/external/scudo" revision="main-trusty" groups="trusty" />
   <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="trusty" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="trusty" />
