@@ -42,6 +42,7 @@
   <!-- END apps projects -->
 
   <!-- BEGIN platform projects -->
+  <project path="development" name="platform/development" groups="trusty" />
   <project path="external/boringssl" name="platform/external/boringssl" groups="trusty" />
   <project path="external/fmtlib" name="platform/external/fmtlib" groups="trusty" />
   <project path="external/freetype" name="platform/external/freetype" groups="trusty" />
