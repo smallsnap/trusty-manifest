@@ -96,6 +96,7 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="trusty" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="trusty" clone-depth="1" />
   <project path="prebuilts/libprotobuf" name="platform/prebuilts/libprotobuf/linux" revision="trusty" groups="trusty" clone-depth="1" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="trusty" clone-depth="1" />
   <project path="trusty/prebuilts/aosp" name="trusty/prebuilts/aosp" groups="trusty" clone-depth="1" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="trusty"
 clone-depth="1" />
