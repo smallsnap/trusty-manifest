@@ -123,7 +123,7 @@ clone-depth="1" />
   <project path="external/rust/crates/foreign-types" name="platform/external/rust/crates/foreign-types" groups="trusty" revision="a063310d99662e54ee2c5338b0f1a63aebd929b5" />
   <project path="external/rust/crates/foreign-types-shared" name="platform/external/rust/crates/foreign-types-shared" groups="trusty" revision="5233dd5f46488af99d0c3de1b13822e2771a2e24" />
   <project path="external/rust/crates/half" name="platform/external/rust/crates/half" groups="trusty" revision="17251f84ffd605638f1e53d686324b8b768e05d4" />
-  <project path="external/rust/crates/libc" name="platform/external/rust/crates/libc" groups="trusty" revision="122e586e93a534160230dc10ae3474cf31dd8f7f" />
+  <project path="external/rust/crates/libc" name="platform/external/rust/crates/libc" groups="trusty" revision="5f37120dd5b91eeaded3db15f71e14bc4f02bd5d" />
   <project path="external/rust/crates/log" name="platform/external/rust/crates/log" groups="trusty" revision="d3a6baa591a726f3216df9e0cf4a8f3bb1a2f5f7" />
   <project path="external/rust/crates/once_cell" name="platform/external/rust/crates/once_cell" groups="trusty" revision="9bb9cf9fd83b61101f25cabc6e5f5bd16515b7f5" />
   <project path="external/rust/crates/pkcs1" name="platform/external/rust/crates/pkcs1" groups="trusty" revision="238816042521dbf5897e4dfe87716b0b4a999e01" />
