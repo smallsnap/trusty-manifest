@@ -46,7 +46,8 @@
 
   <!-- BEGIN platform projects -->
   <project path="development" name="platform/development" groups="trusty" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="trusty" />
+  <!-- Temporarily pinning for atomic upgrade -->
+  <project path="external/boringssl" name="platform/external/boringssl" groups="trusty" revision="7cca763839270d06b1dc1726753c0e0eec003b50" />
   <project path="external/fmtlib" name="platform/external/fmtlib" groups="trusty" />
   <project path="external/freetype" name="platform/external/freetype" groups="trusty" />
   <project path="external/googletest" name="platform/external/googletest" groups="trusty" />
