@@ -61,6 +61,7 @@
   <project path="external/python/markupsafe" name="platform/external/python/markupsafe" groups="trusty" />
   <project path="external/scudo" name="platform/external/scudo" revision="main-trusty" groups="trusty" />
   <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="trusty" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="trusty" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="trusty" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="trusty" />
   <project path="system/core" name="platform/system/core" groups="trusty" />
