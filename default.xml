@@ -49,7 +49,7 @@
   <project path="external/boringssl" name="platform/external/boringssl" groups="trusty" />
   <project path="external/fmtlib" name="platform/external/fmtlib" groups="trusty" />
   <project path="external/freetype" name="platform/external/freetype" groups="trusty" />
-  <project path="external/googletest" name="platform/external/googletest" groups="trusty" />
+  <project path="external/googletest" name="platform/external/googletest" groups="trusty" revision="817e9f6edc2fc8301b92403962478d2df0024924" />
   <project path="external/libcppbor" name="platform/external/libcppbor" groups="trusty" />
   <project path="external/libcxx" name="platform/external/libcxx" revision="main-trusty" groups="trusty" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="trusty" />
