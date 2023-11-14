@@ -39,6 +39,7 @@
   <project path="trusty/user/app/keymaster" name="trusty/app/keymaster" groups="trusty" />
   <project path="trusty/user/app/keymint" name="trusty/app/keymint" groups="trusty" />
   <project path="trusty/user/app/gatekeeper" name="trusty/app/gatekeeper" groups="trusty" />
+  <project path="trusty/user/app/secretkeeper" name="trusty/app/secretkeeper" groups="trusty" />
   <project path="trusty/user/app/storage" name="trusty/app/storage" groups="trusty" />
   <project path="trusty/user/app/avb" name="trusty/app/avb" groups="trusty" />
   <project path="trusty/user/app/cast-auth" name="trusty/app/cast-auth" groups="trusty" />
@@ -72,6 +73,7 @@
   <project path="system/keymaster" name="platform/system/keymaster" groups="trusty" />
   <project path="system/keymint" name="platform/system/keymint" groups="trusty" />
   <project path="system/libbase" name="platform/system/libbase" groups="trusty" />
+  <project path="system/secretkeeper" name="platform/system/secretkeeper" groups="trusty" />
   <project path="system/teeui" name="platform/system/teeui" groups="trusty" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="trusty" />
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="trusty" />
