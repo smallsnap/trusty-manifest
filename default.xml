@@ -65,6 +65,7 @@
   <project path="frameworks/base" name="platform/frameworks/base" groups="trusty" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="trusty" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="trusty" />
+  <project path="system/authgraph" name="platform/system/authgraph" groups="trusty" />
   <project path="system/core" name="platform/system/core" groups="trusty" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
   <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="trusty" />
