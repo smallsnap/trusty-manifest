@@ -156,6 +156,7 @@ clone-depth="1" />
   <project path="external/rust/crates/thiserror-impl" name="platform/external/rust/crates/thiserror-impl" groups="trusty" />
   <project path="external/rust/crates/unicode-xid" name="platform/external/rust/crates/unicode-xid" groups="trusty" revision="trusty-main" />
   <project path="external/rust/crates/unicode-ident" name="platform/external/rust/crates/unicode-ident" groups="trusty" />
+  <project path="external/rust/crates/vm-memory" name="platform/external/rust/crates/vm-memory" groups="trusty" />
   <project path="external/rust/crates/x509-cert" name="platform/external/rust/crates/x509-cert" groups="trusty" revision="trusty-main" />
   <project path="external/rust/crates/zeroize" name="platform/external/rust/crates/zeroize" groups="trusty" revision="trusty-main" />
   <project path="external/rust/crates/zeroize_derive" name="platform/external/rust/crates/zeroize_derive" groups="trusty" revision="trusty-main" />
