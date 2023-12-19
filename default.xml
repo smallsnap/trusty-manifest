@@ -117,50 +117,50 @@ clone-depth="1" />
   <!-- These crates are pinned because their trusty build files live in the trusty tree and need to be manually updated -->
   <project path="external/rust/crates/arrayvec" name="platform/external/rust/crates/arrayvec" groups="trusty" />
   <project path="external/rust/crates/async-trait" name="platform/external/rust/crates/async-trait" groups="trusty" />
-  <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/ciborium" name="platform/external/rust/crates/ciborium" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/ciborium-io" name="platform/external/rust/crates/ciborium-io" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/ciborium-ll" name="platform/external/rust/crates/ciborium-ll" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/const-oid" name="platform/external/rust/crates/const-oid" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/coset" name="platform/external/rust/crates/coset" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/der" name="platform/external/rust/crates/der" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/der_derive" name="platform/external/rust/crates/der_derive" groups="trusty" revision="trusty-main" />
+  <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" groups="trusty" />
+  <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" groups="trusty" />
+  <project path="external/rust/crates/ciborium" name="platform/external/rust/crates/ciborium" groups="trusty" />
+  <project path="external/rust/crates/ciborium-io" name="platform/external/rust/crates/ciborium-io" groups="trusty" />
+  <project path="external/rust/crates/ciborium-ll" name="platform/external/rust/crates/ciborium-ll" groups="trusty" />
+  <project path="external/rust/crates/const-oid" name="platform/external/rust/crates/const-oid" groups="trusty" />
+  <project path="external/rust/crates/coset" name="platform/external/rust/crates/coset" groups="trusty" />
+  <project path="external/rust/crates/der" name="platform/external/rust/crates/der" groups="trusty" />
+  <project path="external/rust/crates/der_derive" name="platform/external/rust/crates/der_derive" groups="trusty" />
   <project path="external/rust/crates/downcast-rs" name="platform/external/rust/crates/downcast-rs" groups="trusty" />
-  <project path="external/rust/crates/enumn" name="platform/external/rust/crates/enumn" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/flagset" name="platform/external/rust/crates/flagset" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/foreign-types" name="platform/external/rust/crates/foreign-types" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/foreign-types-shared" name="platform/external/rust/crates/foreign-types-shared" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/half" name="platform/external/rust/crates/half" groups="trusty" revision="trusty-main" />
+  <project path="external/rust/crates/enumn" name="platform/external/rust/crates/enumn" groups="trusty" />
+  <project path="external/rust/crates/flagset" name="platform/external/rust/crates/flagset" groups="trusty" />
+  <project path="external/rust/crates/foreign-types" name="platform/external/rust/crates/foreign-types" groups="trusty" />
+  <project path="external/rust/crates/foreign-types-shared" name="platform/external/rust/crates/foreign-types-shared" groups="trusty" />
+  <project path="external/rust/crates/half" name="platform/external/rust/crates/half" groups="trusty" />
   <project path="external/rust/crates/lazy_static" name="platform/external/rust/crates/lazy_static" groups="trusty" />
-  <project path="external/rust/crates/libc" name="platform/external/rust/crates/libc" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/log" name="platform/external/rust/crates/log" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/once_cell" name="platform/external/rust/crates/once_cell" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/pkcs1" name="platform/external/rust/crates/pkcs1" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/pkcs8" name="platform/external/rust/crates/pkcs8" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/proc-macro2" name="platform/external/rust/crates/proc-macro2" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/proc-macro-error" name="platform/external/rust/crates/proc-macro-error" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/proc-macro-error-attr" name="platform/external/rust/crates/proc-macro-error-attr" groups="trusty" revision="trusty-main" />
+  <project path="external/rust/crates/libc" name="platform/external/rust/crates/libc" groups="trusty" />
+  <project path="external/rust/crates/log" name="platform/external/rust/crates/log" groups="trusty" />
+  <project path="external/rust/crates/once_cell" name="platform/external/rust/crates/once_cell" groups="trusty" />
+  <project path="external/rust/crates/pkcs1" name="platform/external/rust/crates/pkcs1" groups="trusty" />
+  <project path="external/rust/crates/pkcs8" name="platform/external/rust/crates/pkcs8" groups="trusty" />
+  <project path="external/rust/crates/proc-macro2" name="platform/external/rust/crates/proc-macro2" groups="trusty" />
+  <project path="external/rust/crates/proc-macro-error" name="platform/external/rust/crates/proc-macro-error" groups="trusty" />
+  <project path="external/rust/crates/proc-macro-error-attr" name="platform/external/rust/crates/proc-macro-error-attr" groups="trusty" />
   <!-- Updating the protobuf crate will also force us to recreate the autogenerated rust files (keymint) because we are generating them outside of trusty -->
-  <project path="external/rust/crates/protobuf" name="platform/external/rust/crates/protobuf" groups="trusty"  revision="trusty-main" />
+  <project path="external/rust/crates/protobuf" name="platform/external/rust/crates/protobuf" groups="trusty"  />
   <project path="external/rust/crates/protobuf-support" name="platform/external/rust/crates/protobuf-support" groups="trusty" />
-  <project path="external/rust/crates/quote" name="platform/external/rust/crates/quote" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/openssl" name="platform/external/rust/crates/openssl" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/openssl-macros" name="platform/external/rust/crates/openssl-macros" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/sec1" name="platform/external/rust/crates/sec1" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/serde" name="platform/external/rust/crates/serde" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/serde_derive" name="platform/external/rust/crates/serde_derive" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/spki" name="platform/external/rust/crates/spki" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/synstructure" name="platform/external/rust/crates/synstructure" groups="trusty" revision="trusty-main" />
+  <project path="external/rust/crates/quote" name="platform/external/rust/crates/quote" groups="trusty" />
+  <project path="external/rust/crates/openssl" name="platform/external/rust/crates/openssl" groups="trusty" />
+  <project path="external/rust/crates/openssl-macros" name="platform/external/rust/crates/openssl-macros" groups="trusty" />
+  <project path="external/rust/crates/sec1" name="platform/external/rust/crates/sec1" groups="trusty" />
+  <project path="external/rust/crates/serde" name="platform/external/rust/crates/serde" groups="trusty" />
+  <project path="external/rust/crates/serde_derive" name="platform/external/rust/crates/serde_derive" groups="trusty" />
+  <project path="external/rust/crates/spki" name="platform/external/rust/crates/spki" groups="trusty" />
+  <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" groups="trusty" />
+  <project path="external/rust/crates/synstructure" name="platform/external/rust/crates/synstructure" groups="trusty" />
   <project path="external/rust/crates/thiserror" name="platform/external/rust/crates/thiserror" groups="trusty" />
   <project path="external/rust/crates/thiserror-impl" name="platform/external/rust/crates/thiserror-impl" groups="trusty" />
-  <project path="external/rust/crates/unicode-xid" name="platform/external/rust/crates/unicode-xid" groups="trusty" revision="trusty-main" />
+  <project path="external/rust/crates/unicode-xid" name="platform/external/rust/crates/unicode-xid" groups="trusty" />
   <project path="external/rust/crates/unicode-ident" name="platform/external/rust/crates/unicode-ident" groups="trusty" />
   <project path="external/rust/crates/vm-memory" name="platform/external/rust/crates/vm-memory" groups="trusty" />
-  <project path="external/rust/crates/x509-cert" name="platform/external/rust/crates/x509-cert" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/zeroize" name="platform/external/rust/crates/zeroize" groups="trusty" revision="trusty-main" />
-  <project path="external/rust/crates/zeroize_derive" name="platform/external/rust/crates/zeroize_derive" groups="trusty" revision="trusty-main" />
+  <project path="external/rust/crates/x509-cert" name="platform/external/rust/crates/x509-cert" groups="trusty" />
+  <project path="external/rust/crates/zeroize" name="platform/external/rust/crates/zeroize" groups="trusty" />
+  <project path="external/rust/crates/zeroize_derive" name="platform/external/rust/crates/zeroize_derive" groups="trusty" />
   <!-- END external rust crates -->
 
   <!-- BEGIN aux external projects -->
