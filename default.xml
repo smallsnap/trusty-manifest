@@ -118,6 +118,7 @@ clone-depth="1" />
   <project path="external/rust/crates/arrayvec" name="platform/external/rust/crates/arrayvec" groups="trusty" />
   <project path="external/rust/crates/async-trait" name="platform/external/rust/crates/async-trait" groups="trusty" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" groups="trusty" />
+  <project path="external/rust/crates/byteorder" name="platform/external/rust/crates/byteorder" groups="trusty" />
   <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" groups="trusty" />
   <project path="external/rust/crates/ciborium" name="platform/external/rust/crates/ciborium" groups="trusty" />
   <project path="external/rust/crates/ciborium-io" name="platform/external/rust/crates/ciborium-io" groups="trusty" />
@@ -157,8 +158,11 @@ clone-depth="1" />
   <project path="external/rust/crates/thiserror-impl" name="platform/external/rust/crates/thiserror-impl" groups="trusty" />
   <project path="external/rust/crates/unicode-xid" name="platform/external/rust/crates/unicode-xid" groups="trusty" />
   <project path="external/rust/crates/unicode-ident" name="platform/external/rust/crates/unicode-ident" groups="trusty" />
+  <project path="external/rust/crates/virtio-drivers" name="platform/external/rust/crates/virtio-drivers" groups="trusty" />
   <project path="external/rust/crates/vm-memory" name="platform/external/rust/crates/vm-memory" groups="trusty" />
   <project path="external/rust/crates/x509-cert" name="platform/external/rust/crates/x509-cert" groups="trusty" />
+  <project path="external/rust/crates/zerocopy" name="platform/external/rust/crates/zerocopy" groups="trusty" />
+  <project path="external/rust/crates/zerocopy-derive" name="platform/external/rust/crates/zerocopy-derive" groups="trusty" />
   <project path="external/rust/crates/zeroize" name="platform/external/rust/crates/zeroize" groups="trusty" />
   <project path="external/rust/crates/zeroize_derive" name="platform/external/rust/crates/zeroize_derive" groups="trusty" />
   <!-- END external rust crates -->
