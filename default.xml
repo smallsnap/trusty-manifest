@@ -115,8 +115,10 @@ clone-depth="1" />
 
   <!-- BEGIN external rust crates -->
   <!-- These crates are pinned because their trusty build files live in the trusty tree and need to be manually updated -->
+  <project path="external/rust/crates/acpi" name="platform/external/rust/crates/acpi" groups="trusty" />
   <project path="external/rust/crates/arrayvec" name="platform/external/rust/crates/arrayvec" groups="trusty" />
   <project path="external/rust/crates/async-trait" name="platform/external/rust/crates/async-trait" groups="trusty" />
+  <project path="external/rust/crates/bit_field" name="platform/external/rust/crates/bit_field" groups="trusty" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" groups="trusty" />
   <project path="external/rust/crates/byteorder" name="platform/external/rust/crates/byteorder" groups="trusty" />
   <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" groups="trusty" />
