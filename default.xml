@@ -138,6 +138,8 @@ clone-depth="1" />
   <project path="external/rust/crates/lazy_static" name="platform/external/rust/crates/lazy_static" groups="trusty" />
   <project path="external/rust/crates/libc" name="platform/external/rust/crates/libc" groups="trusty" />
   <project path="external/rust/crates/log" name="platform/external/rust/crates/log" groups="trusty" />
+  <project path="external/rust/crates/num-derive" name="platform/external/rust/crates/num-derive" groups="trusty" />
+  <project path="external/rust/crates/num-traits" name="platform/external/rust/crates/num-traits" groups="trusty" />
   <project path="external/rust/crates/once_cell" name="platform/external/rust/crates/once_cell" groups="trusty" />
   <project path="external/rust/crates/pkcs1" name="platform/external/rust/crates/pkcs1" groups="trusty" />
   <project path="external/rust/crates/pkcs8" name="platform/external/rust/crates/pkcs8" groups="trusty" />
