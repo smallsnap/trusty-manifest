@@ -155,6 +155,7 @@ clone-depth="1" />
   <project path="external/rust/crates/sec1" name="platform/external/rust/crates/sec1" groups="trusty" />
   <project path="external/rust/crates/serde" name="platform/external/rust/crates/serde" groups="trusty" />
   <project path="external/rust/crates/serde_derive" name="platform/external/rust/crates/serde_derive" groups="trusty" />
+  <project path="external/rust/crates/spin" name="platform/external/rust/crates/spin" groups="trusty" />
   <project path="external/rust/crates/spki" name="platform/external/rust/crates/spki" groups="trusty" />
   <project path="external/rust/crates/static_assertions" name="platform/external/rust/crates/static_assertions" groups="trusty" />
   <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" groups="trusty" />
